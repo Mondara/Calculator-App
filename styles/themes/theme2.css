@@ -1,0 +1,25 @@
+:root {
+  /* ------------ Theme 2 ---------------- */
+  /* ---- Backgrounds ----*/
+  --main-bg: hsl(0, 0%, 90%);
+  --toggle-keypad-bg: hsl(0, 5%, 81%);
+  --screen-bg: hsl(0, 0%, 93%);
+
+  /* ---- Keys ----*/
+  --key-primary-bg: hsl(185, 42%, 37%);
+  --key-primary-hover: hsl(185, 42%, 33%);
+  --key-primary-shadow: hsl(185, 58%, 25%);
+
+  --key-accent: hsl(25, 98%, 40%);
+  --key-accent-hover: hsl(25, 98%, 36%);
+  --key-accent-shadow: hsl(25, 99%, 27%);
+
+  --key-neutral: hsl(45, 7%, 89%);
+  --key-neutral-hover: hsl(45, 7%, 82%);
+  --key-neutral-shadow: hsl(35, 11%, 61%);
+
+  /* ---- Text ----*/
+  --text: hsl(60, 10%, 19%);
+  --text-neutral: hsl(60, 10%, 19%);
+  --text-accent: hsl(0, 0%, 100%);
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="styles/themes/theme1.css" id="theme" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="script/script.js" type="module"></script>
+    <title>Calculator</title>
+  </head>
+  <body class="flex-center">
+    <div class="calc-container flex-center">
+      <div class="calc-header">
+        <h1 class="calc-heading">calc</h1>
+        <!-- Theme Toggle -->
+        <div class="theme-toggle-container flex-center">
+          <div class="theme-toggle-label">THEME</div>
+          <div class="theme-toggle">
+            <label class="custom-radio-btn">
+              <input id="theme1" name="toggle-state" type="radio" checked />
+              <span class="checkmark"></span>
+              <span class="label">1</span>
+            </label>
+
+            <label class="custom-radio-btn">
+              <input id="theme2" name="toggle-state" type="radio" />
+              <span class="checkmark"></span>
+              <span class="label">2</span>
+            </label>
+
+            <label class="custom-radio-btn">
+              <input id="theme3" name="toggle-state" type="radio" />
+              <span class="checkmark"></span>
+              <span class="label">3</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="calc-calc-container">
+        <!-- Calc Screen -->
+        <div class="calc-calc-screen">
+          <div class="history">
+            <div data-secondary-operand class="secondary-operand"></div>
+            <div data-operation></div>
+          </div>
+          <div data-primary-operand class="primary-operand"></div>
+        </div>
+        <!-- Calc Keypad -->
+        <div class="calc-calc-keypad-container">
+          <div class="calc-calc-keypad">
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-delete class="btn-del">DEL</button>
+
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-operation>+</button>
+
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-operation>-</button>
+
+            <button data-number>.</button>
+            <button data-number>0</button>
+            <button data-operation>/</button>
+            <button data-operation>*</button>
+
+            <button data-all-clear class="span-two btn-ac">RESET</button>
+            <button data-equals class="span-two btn-equal">=</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
