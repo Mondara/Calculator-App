@@ -42,12 +42,14 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+- Cypress
 
 ### What I learned
 
-Use object oriented principles to build the functionailty of the app.
-Learned how to change the href attribute of Link element in js to toggle theme.
-Learned how to create a toggle element.
+- Use object oriented principles to build the functionailty of the app.
+- Learned how to change the href attribute of Link element in js to toggle theme.
+- Learned how to create a toggle element.
+- Learned how to write end-to-end tests using cypress.
 
 
 ## Author
