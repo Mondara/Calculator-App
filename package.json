@@ -1,0 +1,27 @@
+{
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve",
+    "cy:open": "cypress open",
+    "test": "start-server-and-test start http://localhost:3000 cy:open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mondara/Calculator-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mondara/Calculator-App/issues"
+  },
+  "homepage": "https://github.com/Mondara/Calculator-App#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "serve": "^13.0.2",
+    "start-server-and-test": "^1.14.0"
+  }
+}
